@@ -14,6 +14,16 @@
 //高
 #define KScreenHeight [UIScreen mainScreen].bounds.size.height
 
+
+//手机类型
+//苹果4/4S
+#define IPhone4 ([UIScreen mainScreen].bounds.size.height==480)
+//苹果5/5S/5C
+#define IPhone5 ([UIScreen mainScreen].bounds.size.height==568)
+//苹果6/6S/7/8
+#define IPhone6 ([UIScreen mainScreen].bounds.size.height==667)
+//苹果6Plus/6SPlus/7Plus/8Plus
+#define IPhone6P ([UIScreen mainScreen].bounds.size.height==736)
 //苹果IPhoneX
 #define IPhoneX ([UIScreen mainScreen].bounds.size.height==812)
 
@@ -34,7 +44,12 @@
 
 
 #ifdef __OBJC__//将OC的头文件与C语言的源文件进行有效的隔离
+
 #import "UIBarButtonItem+XANBarButtonItem.h"
+#import "UIView+AutoLayout.h"
+#import "XANProgressHUD.h"
+#import "XANTableViewCell.h"
+
 
 #endif//OC文件判断结束
 

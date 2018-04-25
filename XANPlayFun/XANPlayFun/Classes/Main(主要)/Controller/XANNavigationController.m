@@ -8,7 +8,7 @@
 
 #import "XANNavigationController.h"
 #import "XANPublic.h"
-@interface XANNavigationController ()
+@interface XANNavigationController ()<UIGestureRecognizerDelegate>
 
 @end
 
@@ -17,6 +17,16 @@
 +(void)load{
     //设置导航栏主题
     [self setupNavBarTheme];
+}
+
+-(void)viewDidLoad{
+    [super viewDidLoad];
+    //1.实现全屏滑动、侧滑
+    UIPanGestureRecognizer *pan=[[UIPanGestureRecognizer alloc]initWithTarget:self.interactivePopGestureRecognizer.delegate action:@selector(handleNavigationTransition:)];
+    [self.view addGestureRecognizer:pan];
+    pan.delegate=self;
+    //2.禁止系统的边缘侧滑手势
+    self.interactivePopGestureRecognizer.enabled=NO;
 }
 
 /**
@@ -48,14 +58,19 @@
     return UIStatusBarStyleLightContent;
 }
 
+#pragma mark----UIGestureRecognizerDelegate
+//决定是否触发手势
+-(BOOL)gestureRecognizer:(UIGestureRecognizer *)gestureRecognizer shouldReceiveTouch:(UITouch *)touch{
+    return self.childViewControllers.count>1;
+}
+
 /**
  *  重写这个方法，当控制器跳转时自动隐藏底部导航,这样做防止主界面卡顿时，导致一个ViewController被push多次
  */
 - (void)pushViewController:(UIViewController *)viewController animated:(BOOL)animated{
-    if (self.viewControllers.count > 0) {
+    if (self.viewControllers.count > 0) {//如果这个控制器的个数大于0，说明是非根控制器
         //1.当控制器跳转时自动隐藏底部导航
         viewController.hidesBottomBarWhenPushed = YES;
-        self.interactivePopGestureRecognizer.enabled=NO;//禁止侧滑
         
         //2.FIXME:这样做防止主界面卡顿时，导致一个ViewController被push多次
         if ([[self.childViewControllers lastObject] isKindOfClass:[viewController class]]) {

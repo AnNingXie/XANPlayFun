@@ -8,6 +8,7 @@
 
 #import "XANNewViewController.h"
 #import "XANPublic.h"
+#import "XANRecommendController.h"
 @interface XANNewViewController ()
 
 @end
@@ -17,11 +18,15 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     self.view.backgroundColor=[UIColor whiteColor];
-    self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithNormalImage:@"setting" highImage:@"setting" target:self action:@selector(left)];
+    self.navigationItem.leftBarButtonItem=[UIBarButtonItem itemWithName:@"推荐标签" target:self action:@selector(recommend)];
 }
 
--(void)left{
-    XANLog(@"点击了图片");
+/**
+ 推荐标签
+ */
+-(void)recommend{
+    XANRecommendController *recommend=[[XANRecommendController alloc]init];
+    [self.navigationController pushViewController:recommend animated:YES];
 }
 
 - (void)didReceiveMemoryWarning {
@@ -29,14 +34,5 @@
     // Dispose of any resources that can be recreated.
 }
 
-/*
-#pragma mark - Navigation
-
-// In a storyboard-based application, you will often want to do a little preparation before navigation
-- (void)prepareForSegue:(UIStoryboardSegue *)segue sender:(id)sender {
-    // Get the new view controller using [segue destinationViewController].
-    // Pass the selected object to the new view controller.
-}
-*/
 
 @end

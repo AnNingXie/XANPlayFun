@@ -19,6 +19,45 @@
 		04272AD9208991A8004294D6 /* XANFriendTrendViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04272AD8208991A8004294D6 /* XANFriendTrendViewController.m */; };
 		04272ADF2089BEAB004294D6 /* XANNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = 04272ADE2089BEAB004294D6 /* XANNavigationController.m */; };
 		04272AE22089CF2F004294D6 /* UIBarButtonItem+XANBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 04272AE12089CF2F004294D6 /* UIBarButtonItem+XANBarButtonItem.m */; };
+		0494B781208C61E600A4D42B /* XANSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B780208C61E600A4D42B /* XANSettingViewController.m */; };
+		0494B788208C687600A4D42B /* XANADViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B787208C687600A4D42B /* XANADViewController.m */; };
+		0494B793208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B78A208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt.png */; };
+		0494B794208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x568pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B78B208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x568pt@2x.png */; };
+		0494B795208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x480pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B78C208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x480pt@2x.png */; };
+		0494B796208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_414x736pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B78D208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_414x736pt@3x.png */; };
+		0494B797208C6F0000A4D42B /* LaunchImageiPhoneXPortraitiOS11_375x812pt@3x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B78E208C6F0000A4D42B /* LaunchImageiPhoneXPortraitiOS11_375x812pt@3x.png */; };
+		0494B798208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x568pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B78F208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x568pt@2x.png */; };
+		0494B79A208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B791208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt@2x.png */; };
+		0494B79B208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_375x667pt@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 0494B792208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_375x667pt@2x.png */; };
+		0494B79E208C81DE00A4D42B /* XANADItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B79D208C81DE00A4D42B /* XANADItem.m */; };
+		0494B7A3208CB6B900A4D42B /* UIView+AutoLayout.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7A1208CB6B900A4D42B /* UIView+AutoLayout.m */; };
+		0494B7A8208CEFDC00A4D42B /* XANRecommendController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7A7208CEFDC00A4D42B /* XANRecommendController.m */; };
+		0494B7AD208CF69300A4D42B /* XANRecommendStatus.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7AC208CF69300A4D42B /* XANRecommendStatus.m */; };
+		0494B7B0208CF6A700A4D42B /* XANRecommendTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7AF208CF6A700A4D42B /* XANRecommendTableViewCell.m */; };
+		0494B7B3208D755300A4D42B /* XANRecommendFrame.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7B2208D755300A4D42B /* XANRecommendFrame.m */; };
+		0494B7C2208D81F500A4D42B /* XANProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7B5208D81F500A4D42B /* XANProgressHUD.m */; };
+		0494B7C3208D81F500A4D42B /* SVRadialGradientLayer.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7B7208D81F500A4D42B /* SVRadialGradientLayer.m */; };
+		0494B7C4208D81F500A4D42B /* SVProgressAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7BA208D81F500A4D42B /* SVProgressAnimatedView.m */; };
+		0494B7C5208D81F500A4D42B /* SVProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7BD208D81F500A4D42B /* SVProgressHUD.m */; };
+		0494B7C6208D81F500A4D42B /* SVIndefiniteAnimatedView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7BE208D81F500A4D42B /* SVIndefiniteAnimatedView.m */; };
+		0494B7C7208D81F500A4D42B /* SVProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 0494B7BF208D81F500A4D42B /* SVProgressHUD.bundle */; };
+		0494B7CC208D9A5900A4D42B /* XANLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7CB208D9A5900A4D42B /* XANLoginViewController.m */; };
+		0494B7CF208D9DAD00A4D42B /* XANLoginTopView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7CE208D9DAD00A4D42B /* XANLoginTopView.m */; };
+		0494B7D3208D9DCC00A4D42B /* XANLoginMiddleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7D2208D9DCC00A4D42B /* XANLoginMiddleView.m */; };
+		0494B7D7208D9DEF00A4D42B /* XANLoginBottomView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7D6208D9DEF00A4D42B /* XANLoginBottomView.m */; };
+		0494B7DA208DD54300A4D42B /* XANFastLoginButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7D9208DD54300A4D42B /* XANFastLoginButton.m */; };
+		0494B7DD208DF7AF00A4D42B /* XANMeLoginTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7DC208DF7AF00A4D42B /* XANMeLoginTableViewCell.m */; };
+		0494B7E0208DF95300A4D42B /* XANMeDownLoadTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7DF208DF95300A4D42B /* XANMeDownLoadTableViewCell.m */; };
+		0494B7E5208E268900A4D42B /* XANFileTool.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7E4208E268900A4D42B /* XANFileTool.m */; };
+		0494B7E8208EEDC500A4D42B /* XANTitlesView.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7E7208EEDC500A4D42B /* XANTitlesView.m */; };
+		0494B7EB208EFCFF00A4D42B /* XANTitleButton.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7EA208EFCFF00A4D42B /* XANTitleButton.m */; };
+		0494B7F9208F216B00A4D42B /* XANAllViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B7F8208F216B00A4D42B /* XANAllViewController.m */; };
+		0494B802208F21F400A4D42B /* XANVideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B801208F21F400A4D42B /* XANVideoViewController.m */; };
+		0494B806208F220A00A4D42B /* XANVoiceViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B805208F220A00A4D42B /* XANVoiceViewController.m */; };
+		0494B80A208F221C00A4D42B /* XANPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B809208F221C00A4D42B /* XANPictureViewController.m */; };
+		0494B80E208F224100A4D42B /* XANWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B80D208F224100A4D42B /* XANWordViewController.m */; };
+		0494B8112090126800A4D42B /* XANTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8102090126800A4D42B /* XANTableViewCell.m */; };
+		56DE3A0E9ED0E1BD7E40340E /* libPods-XANPlayFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A55814D4816C69710A7B89A /* libPods-XANPlayFun.a */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -47,6 +86,77 @@
 		04272ADE2089BEAB004294D6 /* XANNavigationController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANNavigationController.m; sourceTree = "<group>"; };
 		04272AE02089CF2F004294D6 /* UIBarButtonItem+XANBarButtonItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+XANBarButtonItem.h"; sourceTree = "<group>"; };
 		04272AE12089CF2F004294D6 /* UIBarButtonItem+XANBarButtonItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+XANBarButtonItem.m"; sourceTree = "<group>"; };
+		0494B77F208C61E600A4D42B /* XANSettingViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANSettingViewController.h; sourceTree = "<group>"; };
+		0494B780208C61E600A4D42B /* XANSettingViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANSettingViewController.m; sourceTree = "<group>"; };
+		0494B786208C687600A4D42B /* XANADViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANADViewController.h; sourceTree = "<group>"; };
+		0494B787208C687600A4D42B /* XANADViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANADViewController.m; sourceTree = "<group>"; };
+		0494B78A208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = LaunchImageiPhonePortraitiOS56_320x480pt.png; sourceTree = "<group>"; };
+		0494B78B208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x568pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhonePortraitiOS56_320x568pt@2x.png"; sourceTree = "<group>"; };
+		0494B78C208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x480pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhonePortraitiOS789_320x480pt@2x.png"; sourceTree = "<group>"; };
+		0494B78D208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_414x736pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhonePortraitiOS89_414x736pt@3x.png"; sourceTree = "<group>"; };
+		0494B78E208C6F0000A4D42B /* LaunchImageiPhoneXPortraitiOS11_375x812pt@3x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhoneXPortraitiOS11_375x812pt@3x.png"; sourceTree = "<group>"; };
+		0494B78F208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x568pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhonePortraitiOS789_320x568pt@2x.png"; sourceTree = "<group>"; };
+		0494B791208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhonePortraitiOS56_320x480pt@2x.png"; sourceTree = "<group>"; };
+		0494B792208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_375x667pt@2x.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "LaunchImageiPhonePortraitiOS89_375x667pt@2x.png"; sourceTree = "<group>"; };
+		0494B79C208C81DE00A4D42B /* XANADItem.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANADItem.h; sourceTree = "<group>"; };
+		0494B79D208C81DE00A4D42B /* XANADItem.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANADItem.m; sourceTree = "<group>"; };
+		0494B7A1208CB6B900A4D42B /* UIView+AutoLayout.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIView+AutoLayout.m"; sourceTree = "<group>"; };
+		0494B7A2208CB6B900A4D42B /* UIView+AutoLayout.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIView+AutoLayout.h"; sourceTree = "<group>"; };
+		0494B7A6208CEFDC00A4D42B /* XANRecommendController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANRecommendController.h; sourceTree = "<group>"; };
+		0494B7A7208CEFDC00A4D42B /* XANRecommendController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANRecommendController.m; sourceTree = "<group>"; };
+		0494B7AB208CF69300A4D42B /* XANRecommendStatus.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANRecommendStatus.h; sourceTree = "<group>"; };
+		0494B7AC208CF69300A4D42B /* XANRecommendStatus.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANRecommendStatus.m; sourceTree = "<group>"; };
+		0494B7AE208CF6A700A4D42B /* XANRecommendTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANRecommendTableViewCell.h; sourceTree = "<group>"; };
+		0494B7AF208CF6A700A4D42B /* XANRecommendTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANRecommendTableViewCell.m; sourceTree = "<group>"; };
+		0494B7B1208D755300A4D42B /* XANRecommendFrame.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANRecommendFrame.h; sourceTree = "<group>"; };
+		0494B7B2208D755300A4D42B /* XANRecommendFrame.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANRecommendFrame.m; sourceTree = "<group>"; };
+		0494B7B5208D81F500A4D42B /* XANProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = XANProgressHUD.m; sourceTree = "<group>"; };
+		0494B7B7208D81F500A4D42B /* SVRadialGradientLayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVRadialGradientLayer.m; sourceTree = "<group>"; };
+		0494B7B8208D81F500A4D42B /* SVIndefiniteAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVIndefiniteAnimatedView.h; sourceTree = "<group>"; };
+		0494B7B9208D81F500A4D42B /* SVProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressHUD.h; sourceTree = "<group>"; };
+		0494B7BA208D81F500A4D42B /* SVProgressAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressAnimatedView.m; sourceTree = "<group>"; };
+		0494B7BB208D81F500A4D42B /* SVProgressHUD-Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SVProgressHUD-Prefix.pch"; sourceTree = "<group>"; };
+		0494B7BC208D81F500A4D42B /* SVRadialGradientLayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVRadialGradientLayer.h; sourceTree = "<group>"; };
+		0494B7BD208D81F500A4D42B /* SVProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVProgressHUD.m; sourceTree = "<group>"; };
+		0494B7BE208D81F500A4D42B /* SVIndefiniteAnimatedView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SVIndefiniteAnimatedView.m; sourceTree = "<group>"; };
+		0494B7BF208D81F500A4D42B /* SVProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SVProgressHUD.bundle; sourceTree = "<group>"; };
+		0494B7C0208D81F500A4D42B /* SVProgressAnimatedView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SVProgressAnimatedView.h; sourceTree = "<group>"; };
+		0494B7C1208D81F500A4D42B /* XANProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = XANProgressHUD.h; sourceTree = "<group>"; };
+		0494B7CA208D9A5900A4D42B /* XANLoginViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANLoginViewController.h; sourceTree = "<group>"; };
+		0494B7CB208D9A5900A4D42B /* XANLoginViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANLoginViewController.m; sourceTree = "<group>"; };
+		0494B7CD208D9DAD00A4D42B /* XANLoginTopView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANLoginTopView.h; sourceTree = "<group>"; };
+		0494B7CE208D9DAD00A4D42B /* XANLoginTopView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANLoginTopView.m; sourceTree = "<group>"; };
+		0494B7D1208D9DCC00A4D42B /* XANLoginMiddleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANLoginMiddleView.h; sourceTree = "<group>"; };
+		0494B7D2208D9DCC00A4D42B /* XANLoginMiddleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANLoginMiddleView.m; sourceTree = "<group>"; };
+		0494B7D5208D9DEF00A4D42B /* XANLoginBottomView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANLoginBottomView.h; sourceTree = "<group>"; };
+		0494B7D6208D9DEF00A4D42B /* XANLoginBottomView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANLoginBottomView.m; sourceTree = "<group>"; };
+		0494B7D8208DD54300A4D42B /* XANFastLoginButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANFastLoginButton.h; sourceTree = "<group>"; };
+		0494B7D9208DD54300A4D42B /* XANFastLoginButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANFastLoginButton.m; sourceTree = "<group>"; };
+		0494B7DB208DF7AF00A4D42B /* XANMeLoginTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANMeLoginTableViewCell.h; sourceTree = "<group>"; };
+		0494B7DC208DF7AF00A4D42B /* XANMeLoginTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANMeLoginTableViewCell.m; sourceTree = "<group>"; };
+		0494B7DE208DF95300A4D42B /* XANMeDownLoadTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANMeDownLoadTableViewCell.h; sourceTree = "<group>"; };
+		0494B7DF208DF95300A4D42B /* XANMeDownLoadTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANMeDownLoadTableViewCell.m; sourceTree = "<group>"; };
+		0494B7E3208E268900A4D42B /* XANFileTool.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANFileTool.h; sourceTree = "<group>"; };
+		0494B7E4208E268900A4D42B /* XANFileTool.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANFileTool.m; sourceTree = "<group>"; };
+		0494B7E6208EEDC500A4D42B /* XANTitlesView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANTitlesView.h; sourceTree = "<group>"; };
+		0494B7E7208EEDC500A4D42B /* XANTitlesView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANTitlesView.m; sourceTree = "<group>"; };
+		0494B7E9208EFCFF00A4D42B /* XANTitleButton.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANTitleButton.h; sourceTree = "<group>"; };
+		0494B7EA208EFCFF00A4D42B /* XANTitleButton.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANTitleButton.m; sourceTree = "<group>"; };
+		0494B7F7208F216B00A4D42B /* XANAllViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANAllViewController.h; sourceTree = "<group>"; };
+		0494B7F8208F216B00A4D42B /* XANAllViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANAllViewController.m; sourceTree = "<group>"; };
+		0494B800208F21F400A4D42B /* XANVideoViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANVideoViewController.h; sourceTree = "<group>"; };
+		0494B801208F21F400A4D42B /* XANVideoViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANVideoViewController.m; sourceTree = "<group>"; };
+		0494B804208F220A00A4D42B /* XANVoiceViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANVoiceViewController.h; sourceTree = "<group>"; };
+		0494B805208F220A00A4D42B /* XANVoiceViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANVoiceViewController.m; sourceTree = "<group>"; };
+		0494B808208F221C00A4D42B /* XANPictureViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANPictureViewController.h; sourceTree = "<group>"; };
+		0494B809208F221C00A4D42B /* XANPictureViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANPictureViewController.m; sourceTree = "<group>"; };
+		0494B80C208F224100A4D42B /* XANWordViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANWordViewController.h; sourceTree = "<group>"; };
+		0494B80D208F224100A4D42B /* XANWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANWordViewController.m; sourceTree = "<group>"; };
+		0494B80F2090126800A4D42B /* XANTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANTableViewCell.h; sourceTree = "<group>"; };
+		0494B8102090126800A4D42B /* XANTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANTableViewCell.m; sourceTree = "<group>"; };
+		2A55814D4816C69710A7B89A /* libPods-XANPlayFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XANPlayFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		76D70D9288B5B0A289BEFD97 /* Pods-XANPlayFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANPlayFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-XANPlayFun/Pods-XANPlayFun.release.xcconfig"; sourceTree = "<group>"; };
+		9FEBD8AD4B21998F98913FA0 /* Pods-XANPlayFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANPlayFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XANPlayFun/Pods-XANPlayFun.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +164,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				56DE3A0E9ED0E1BD7E40340E /* libPods-XANPlayFun.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -65,6 +176,8 @@
 			children = (
 				04272A9220889565004294D6 /* XANPlayFun */,
 				04272A9120889565004294D6 /* Products */,
+				6E4A63727A3BC87EE4DFFF98 /* Pods */,
+				85D23A90E93D39972667E19E /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -91,9 +204,13 @@
 				04272AB420898286004294D6 /* New(新帖) */,
 				04272AB82089828D004294D6 /* Public(发布) */,
 				04272AB02089827F004294D6 /* FriendTrend(关注) */,
+				0494B7C8208D9A3500A4D42B /* Login(登录) */,
 				04272ABC20898295004294D6 /* Me(我) */,
+				0494B782208C67FB00A4D42B /* Advise(广告) */,
 				04272AAA2088958E004294D6 /* AppDelegate */,
 				04272AC020898350004294D6 /* Main(主要) */,
+				0494B7E1208E262300A4D42B /* Tool(工具类) */,
+				0494B79F208CB6A400A4D42B /* Lib */,
 				04272AAB20889597004294D6 /* Resource */,
 			);
 			path = Classes;
@@ -112,6 +229,7 @@
 		04272AAB20889597004294D6 /* Resource */ = {
 			isa = PBXGroup;
 			children = (
+				0494B789208C6F0000A4D42B /* LaunchImages */,
 				04272A9C20889567004294D6 /* Assets.xcassets */,
 				04272AA120889567004294D6 /* Info.plist */,
 				04272AA220889567004294D6 /* main.m */,
@@ -125,6 +243,11 @@
 				04272AAD20898277004294D6 /* Controller */,
 				04272AAE20898277004294D6 /* Model */,
 				04272AAF20898277004294D6 /* View */,
+				0494B7EC208F1BB600A4D42B /* All(全部) */,
+				0494B7ED208F1BC100A4D42B /* Video(视频) */,
+				0494B7EE208F1BCF00A4D42B /* Voice(声音) */,
+				0494B7EF208F1BDA00A4D42B /* Picture(图片) */,
+				0494B7F0208F1C0800A4D42B /* Word(段子) */,
 			);
 			path = "Essence(精华)";
 			sourceTree = "<group>";
@@ -148,6 +271,10 @@
 		04272AAF20898277004294D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0494B7E6208EEDC500A4D42B /* XANTitlesView.h */,
+				0494B7E7208EEDC500A4D42B /* XANTitlesView.m */,
+				0494B7E9208EFCFF00A4D42B /* XANTitleButton.h */,
+				0494B7EA208EFCFF00A4D42B /* XANTitleButton.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -191,6 +318,7 @@
 				04272AB520898286004294D6 /* Controller */,
 				04272AB620898286004294D6 /* Model */,
 				04272AB720898286004294D6 /* View */,
+				0494B7A4208CEF5E00A4D42B /* Recommend(推荐关注) */,
 			);
 			path = "New(新帖)";
 			sourceTree = "<group>";
@@ -257,6 +385,7 @@
 				04272ABD20898295004294D6 /* Controller */,
 				04272ABE20898295004294D6 /* Model */,
 				04272ABF20898295004294D6 /* View */,
+				0494B77B208C61A700A4D42B /* Setting(设置) */,
 			);
 			path = "Me(我)";
 			sourceTree = "<group>";
@@ -280,6 +409,10 @@
 		04272ABF20898295004294D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0494B7DB208DF7AF00A4D42B /* XANMeLoginTableViewCell.h */,
+				0494B7DC208DF7AF00A4D42B /* XANMeLoginTableViewCell.m */,
+				0494B7DE208DF95300A4D42B /* XANMeDownLoadTableViewCell.h */,
+				0494B7DF208DF95300A4D42B /* XANMeDownLoadTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -298,6 +431,8 @@
 		04272AC12089835A004294D6 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				0494B80F2090126800A4D42B /* XANTableViewCell.h */,
+				0494B8102090126800A4D42B /* XANTableViewCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -331,6 +466,341 @@
 			path = Category;
 			sourceTree = "<group>";
 		};
+		0494B77B208C61A700A4D42B /* Setting(设置) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B77E208C61C700A4D42B /* Controller */,
+				0494B77D208C61C100A4D42B /* Model */,
+				0494B77C208C61BA00A4D42B /* View */,
+			);
+			path = "Setting(设置)";
+			sourceTree = "<group>";
+		};
+		0494B77C208C61BA00A4D42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0494B77D208C61C100A4D42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0494B77E208C61C700A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B77F208C61E600A4D42B /* XANSettingViewController.h */,
+				0494B780208C61E600A4D42B /* XANSettingViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B782208C67FB00A4D42B /* Advise(广告) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B785208C685C00A4D42B /* Controller */,
+				0494B784208C685700A4D42B /* Model */,
+				0494B783208C685100A4D42B /* View */,
+			);
+			path = "Advise(广告)";
+			sourceTree = "<group>";
+		};
+		0494B783208C685100A4D42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0494B784208C685700A4D42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0494B79C208C81DE00A4D42B /* XANADItem.h */,
+				0494B79D208C81DE00A4D42B /* XANADItem.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0494B785208C685C00A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B786208C687600A4D42B /* XANADViewController.h */,
+				0494B787208C687600A4D42B /* XANADViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B789208C6F0000A4D42B /* LaunchImages */ = {
+			isa = PBXGroup;
+			children = (
+				0494B78A208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt.png */,
+				0494B78B208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x568pt@2x.png */,
+				0494B78C208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x480pt@2x.png */,
+				0494B78D208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_414x736pt@3x.png */,
+				0494B78E208C6F0000A4D42B /* LaunchImageiPhoneXPortraitiOS11_375x812pt@3x.png */,
+				0494B78F208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x568pt@2x.png */,
+				0494B791208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt@2x.png */,
+				0494B792208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_375x667pt@2x.png */,
+			);
+			path = LaunchImages;
+			sourceTree = "<group>";
+		};
+		0494B79F208CB6A400A4D42B /* Lib */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7B4208D81F500A4D42B /* XANProgressHUD */,
+				0494B7A0208CB6B900A4D42B /* UIView+AutoLayout(自动布局) */,
+			);
+			path = Lib;
+			sourceTree = "<group>";
+		};
+		0494B7A0208CB6B900A4D42B /* UIView+AutoLayout(自动布局) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7A1208CB6B900A4D42B /* UIView+AutoLayout.m */,
+				0494B7A2208CB6B900A4D42B /* UIView+AutoLayout.h */,
+			);
+			path = "UIView+AutoLayout(自动布局)";
+			sourceTree = "<group>";
+		};
+		0494B7A4208CEF5E00A4D42B /* Recommend(推荐关注) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7A5208CEFBB00A4D42B /* Controller */,
+				0494B7A9208CF66600A4D42B /* Model */,
+				0494B7AA208CF66F00A4D42B /* View */,
+			);
+			path = "Recommend(推荐关注)";
+			sourceTree = "<group>";
+		};
+		0494B7A5208CEFBB00A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7A6208CEFDC00A4D42B /* XANRecommendController.h */,
+				0494B7A7208CEFDC00A4D42B /* XANRecommendController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B7A9208CF66600A4D42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7AB208CF69300A4D42B /* XANRecommendStatus.h */,
+				0494B7AC208CF69300A4D42B /* XANRecommendStatus.m */,
+				0494B7B1208D755300A4D42B /* XANRecommendFrame.h */,
+				0494B7B2208D755300A4D42B /* XANRecommendFrame.m */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0494B7AA208CF66F00A4D42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7AE208CF6A700A4D42B /* XANRecommendTableViewCell.h */,
+				0494B7AF208CF6A700A4D42B /* XANRecommendTableViewCell.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0494B7B4208D81F500A4D42B /* XANProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7B5208D81F500A4D42B /* XANProgressHUD.m */,
+				0494B7B6208D81F500A4D42B /* SVProgressHUD */,
+				0494B7C1208D81F500A4D42B /* XANProgressHUD.h */,
+			);
+			path = XANProgressHUD;
+			sourceTree = "<group>";
+		};
+		0494B7B6208D81F500A4D42B /* SVProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7B7208D81F500A4D42B /* SVRadialGradientLayer.m */,
+				0494B7B8208D81F500A4D42B /* SVIndefiniteAnimatedView.h */,
+				0494B7B9208D81F500A4D42B /* SVProgressHUD.h */,
+				0494B7BA208D81F500A4D42B /* SVProgressAnimatedView.m */,
+				0494B7BB208D81F500A4D42B /* SVProgressHUD-Prefix.pch */,
+				0494B7BC208D81F500A4D42B /* SVRadialGradientLayer.h */,
+				0494B7BD208D81F500A4D42B /* SVProgressHUD.m */,
+				0494B7BE208D81F500A4D42B /* SVIndefiniteAnimatedView.m */,
+				0494B7BF208D81F500A4D42B /* SVProgressHUD.bundle */,
+				0494B7C0208D81F500A4D42B /* SVProgressAnimatedView.h */,
+			);
+			path = SVProgressHUD;
+			sourceTree = "<group>";
+		};
+		0494B7C8208D9A3500A4D42B /* Login(登录) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7C9208D9A4400A4D42B /* Controller */,
+				0494B7D0208D9DB600A4D42B /* View */,
+			);
+			path = "Login(登录)";
+			sourceTree = "<group>";
+		};
+		0494B7C9208D9A4400A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7CA208D9A5900A4D42B /* XANLoginViewController.h */,
+				0494B7CB208D9A5900A4D42B /* XANLoginViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B7D0208D9DB600A4D42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7CD208D9DAD00A4D42B /* XANLoginTopView.h */,
+				0494B7CE208D9DAD00A4D42B /* XANLoginTopView.m */,
+				0494B7D1208D9DCC00A4D42B /* XANLoginMiddleView.h */,
+				0494B7D2208D9DCC00A4D42B /* XANLoginMiddleView.m */,
+				0494B7D5208D9DEF00A4D42B /* XANLoginBottomView.h */,
+				0494B7D6208D9DEF00A4D42B /* XANLoginBottomView.m */,
+				0494B7D8208DD54300A4D42B /* XANFastLoginButton.h */,
+				0494B7D9208DD54300A4D42B /* XANFastLoginButton.m */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0494B7E1208E262300A4D42B /* Tool(工具类) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7E2208E262F00A4D42B /* File */,
+			);
+			path = "Tool(工具类)";
+			sourceTree = "<group>";
+		};
+		0494B7E2208E262F00A4D42B /* File */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7E3208E268900A4D42B /* XANFileTool.h */,
+				0494B7E4208E268900A4D42B /* XANFileTool.m */,
+			);
+			path = File;
+			sourceTree = "<group>";
+		};
+		0494B7EC208F1BB600A4D42B /* All(全部) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7F2208F20E600A4D42B /* Controller */,
+			);
+			path = "All(全部)";
+			sourceTree = "<group>";
+		};
+		0494B7ED208F1BC100A4D42B /* Video(视频) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7FF208F21C100A4D42B /* Controller */,
+				0494B7FE208F21BC00A4D42B /* Model */,
+				0494B7FD208F21AB00A4D42B /* View */,
+			);
+			path = "Video(视频)";
+			sourceTree = "<group>";
+		};
+		0494B7EE208F1BCF00A4D42B /* Voice(声音) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B803208F21F800A4D42B /* Controller */,
+			);
+			path = "Voice(声音)";
+			sourceTree = "<group>";
+		};
+		0494B7EF208F1BDA00A4D42B /* Picture(图片) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B807208F220D00A4D42B /* Controller */,
+			);
+			path = "Picture(图片)";
+			sourceTree = "<group>";
+		};
+		0494B7F0208F1C0800A4D42B /* Word(段子) */ = {
+			isa = PBXGroup;
+			children = (
+				0494B80B208F223100A4D42B /* Controller */,
+			);
+			path = "Word(段子)";
+			sourceTree = "<group>";
+		};
+		0494B7F2208F20E600A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B7F7208F216B00A4D42B /* XANAllViewController.h */,
+				0494B7F8208F216B00A4D42B /* XANAllViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B7FD208F21AB00A4D42B /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0494B7FE208F21BC00A4D42B /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0494B7FF208F21C100A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B800208F21F400A4D42B /* XANVideoViewController.h */,
+				0494B801208F21F400A4D42B /* XANVideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B803208F21F800A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B804208F220A00A4D42B /* XANVoiceViewController.h */,
+				0494B805208F220A00A4D42B /* XANVoiceViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B807208F220D00A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B808208F221C00A4D42B /* XANPictureViewController.h */,
+				0494B809208F221C00A4D42B /* XANPictureViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0494B80B208F223100A4D42B /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0494B80C208F224100A4D42B /* XANWordViewController.h */,
+				0494B80D208F224100A4D42B /* XANWordViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		6E4A63727A3BC87EE4DFFF98 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				9FEBD8AD4B21998F98913FA0 /* Pods-XANPlayFun.debug.xcconfig */,
+				76D70D9288B5B0A289BEFD97 /* Pods-XANPlayFun.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		85D23A90E93D39972667E19E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A55814D4816C69710A7B89A /* libPods-XANPlayFun.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -338,6 +808,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 04272AA620889567004294D6 /* Build configuration list for PBXNativeTarget "XANPlayFun" */;
 			buildPhases = (
+				03983193B9A6CB70D07D6F24 /* [CP] Check Pods Manifest.lock */,
 				04272A8C20889565004294D6 /* Sources */,
 				04272A8D20889565004294D6 /* Frameworks */,
 				04272A8E20889565004294D6 /* Resources */,
@@ -389,28 +860,87 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494B797208C6F0000A4D42B /* LaunchImageiPhoneXPortraitiOS11_375x812pt@3x.png in Resources */,
+				0494B796208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_414x736pt@3x.png in Resources */,
 				04272A9D20889567004294D6 /* Assets.xcassets in Resources */,
+				0494B79A208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt@2x.png in Resources */,
+				0494B793208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x480pt.png in Resources */,
+				0494B7C7208D81F500A4D42B /* SVProgressHUD.bundle in Resources */,
+				0494B795208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x480pt@2x.png in Resources */,
+				0494B794208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS56_320x568pt@2x.png in Resources */,
+				0494B798208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS789_320x568pt@2x.png in Resources */,
+				0494B79B208C6F0000A4D42B /* LaunchImageiPhonePortraitiOS89_375x667pt@2x.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		03983193B9A6CB70D07D6F24 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-XANPlayFun-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		04272A8C20889565004294D6 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				0494B7EB208EFCFF00A4D42B /* XANTitleButton.m in Sources */,
 				04272AD320899182004294D6 /* XANPublicViewController.m in Sources */,
+				0494B79E208C81DE00A4D42B /* XANADItem.m in Sources */,
 				04272AD620899193004294D6 /* XANNewViewController.m in Sources */,
+				0494B806208F220A00A4D42B /* XANVoiceViewController.m in Sources */,
+				0494B7AD208CF69300A4D42B /* XANRecommendStatus.m in Sources */,
+				0494B7E8208EEDC500A4D42B /* XANTitlesView.m in Sources */,
 				04272ACD20898A8E004294D6 /* XANEssenceViewController.m in Sources */,
 				04272AC620898392004294D6 /* XANTabBarController.m in Sources */,
 				04272AD02089916C004294D6 /* XANMeViewController.m in Sources */,
+				0494B7C3208D81F500A4D42B /* SVRadialGradientLayer.m in Sources */,
+				0494B7DA208DD54300A4D42B /* XANFastLoginButton.m in Sources */,
+				0494B7E0208DF95300A4D42B /* XANMeDownLoadTableViewCell.m in Sources */,
+				0494B781208C61E600A4D42B /* XANSettingViewController.m in Sources */,
+				0494B7B3208D755300A4D42B /* XANRecommendFrame.m in Sources */,
+				0494B8112090126800A4D42B /* XANTableViewCell.m in Sources */,
+				0494B7C5208D81F500A4D42B /* SVProgressHUD.m in Sources */,
+				0494B7E5208E268900A4D42B /* XANFileTool.m in Sources */,
+				0494B7C6208D81F500A4D42B /* SVIndefiniteAnimatedView.m in Sources */,
 				04272AA320889567004294D6 /* main.m in Sources */,
+				0494B7A8208CEFDC00A4D42B /* XANRecommendController.m in Sources */,
+				0494B7CF208D9DAD00A4D42B /* XANLoginTopView.m in Sources */,
+				0494B788208C687600A4D42B /* XANADViewController.m in Sources */,
+				0494B7F9208F216B00A4D42B /* XANAllViewController.m in Sources */,
+				0494B80A208F221C00A4D42B /* XANPictureViewController.m in Sources */,
+				0494B7C4208D81F500A4D42B /* SVProgressAnimatedView.m in Sources */,
+				0494B7C2208D81F500A4D42B /* XANProgressHUD.m in Sources */,
+				0494B7D3208D9DCC00A4D42B /* XANLoginMiddleView.m in Sources */,
 				04272AE22089CF2F004294D6 /* UIBarButtonItem+XANBarButtonItem.m in Sources */,
+				0494B7A3208CB6B900A4D42B /* UIView+AutoLayout.m in Sources */,
 				04272A9520889565004294D6 /* AppDelegate.m in Sources */,
+				0494B802208F21F400A4D42B /* XANVideoViewController.m in Sources */,
+				0494B7DD208DF7AF00A4D42B /* XANMeLoginTableViewCell.m in Sources */,
+				0494B7CC208D9A5900A4D42B /* XANLoginViewController.m in Sources */,
 				04272ACA20898944004294D6 /* UIImage+XANImage.m in Sources */,
+				0494B80E208F224100A4D42B /* XANWordViewController.m in Sources */,
 				04272AD9208991A8004294D6 /* XANFriendTrendViewController.m in Sources */,
+				0494B7B0208CF6A700A4D42B /* XANRecommendTableViewCell.m in Sources */,
 				04272ADF2089BEAB004294D6 /* XANNavigationController.m in Sources */,
+				0494B7D7208D9DEF00A4D42B /* XANLoginBottomView.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -529,6 +1059,7 @@
 		};
 		04272AA720889567004294D6 /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FEBD8AD4B21998F98913FA0 /* Pods-XANPlayFun.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
@@ -548,6 +1079,7 @@
 		};
 		04272AA820889567004294D6 /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 76D70D9288B5B0A289BEFD97 /* Pods-XANPlayFun.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
