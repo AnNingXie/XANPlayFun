@@ -57,6 +57,7 @@
 		0494B80A208F221C00A4D42B /* XANPictureViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B809208F221C00A4D42B /* XANPictureViewController.m */; };
 		0494B80E208F224100A4D42B /* XANWordViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B80D208F224100A4D42B /* XANWordViewController.m */; };
 		0494B8112090126800A4D42B /* XANTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8102090126800A4D42B /* XANTableViewCell.m */; };
+		0494B8142090438B00A4D42B /* XANConst.m in Sources */ = {isa = PBXBuildFile; fileRef = 0494B8132090438B00A4D42B /* XANConst.m */; };
 		56DE3A0E9ED0E1BD7E40340E /* libPods-XANPlayFun.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A55814D4816C69710A7B89A /* libPods-XANPlayFun.a */; };
 /* End PBXBuildFile section */
 
@@ -154,6 +155,8 @@
 		0494B80D208F224100A4D42B /* XANWordViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANWordViewController.m; sourceTree = "<group>"; };
 		0494B80F2090126800A4D42B /* XANTableViewCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANTableViewCell.h; sourceTree = "<group>"; };
 		0494B8102090126800A4D42B /* XANTableViewCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANTableViewCell.m; sourceTree = "<group>"; };
+		0494B8122090438B00A4D42B /* XANConst.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = XANConst.h; sourceTree = "<group>"; };
+		0494B8132090438B00A4D42B /* XANConst.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = XANConst.m; sourceTree = "<group>"; };
 		2A55814D4816C69710A7B89A /* libPods-XANPlayFun.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-XANPlayFun.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		76D70D9288B5B0A289BEFD97 /* Pods-XANPlayFun.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANPlayFun.release.xcconfig"; path = "Pods/Target Support Files/Pods-XANPlayFun/Pods-XANPlayFun.release.xcconfig"; sourceTree = "<group>"; };
 		9FEBD8AD4B21998F98913FA0 /* Pods-XANPlayFun.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-XANPlayFun.debug.xcconfig"; path = "Pods/Target Support Files/Pods-XANPlayFun/Pods-XANPlayFun.debug.xcconfig"; sourceTree = "<group>"; };
@@ -222,6 +225,8 @@
 				04272A9320889565004294D6 /* AppDelegate.h */,
 				04272A9420889565004294D6 /* AppDelegate.m */,
 				04272ADA2089BDD5004294D6 /* XANPublic.h */,
+				0494B8122090438B00A4D42B /* XANConst.h */,
+				0494B8132090438B00A4D42B /* XANConst.m */,
 			);
 			path = AppDelegate;
 			sourceTree = "<group>";
@@ -906,6 +911,7 @@
 				0494B79E208C81DE00A4D42B /* XANADItem.m in Sources */,
 				04272AD620899193004294D6 /* XANNewViewController.m in Sources */,
 				0494B806208F220A00A4D42B /* XANVoiceViewController.m in Sources */,
+				0494B8142090438B00A4D42B /* XANConst.m in Sources */,
 				0494B7AD208CF69300A4D42B /* XANRecommendStatus.m in Sources */,
 				0494B7E8208EEDC500A4D42B /* XANTitlesView.m in Sources */,
 				04272ACD20898A8E004294D6 /* XANEssenceViewController.m in Sources */,

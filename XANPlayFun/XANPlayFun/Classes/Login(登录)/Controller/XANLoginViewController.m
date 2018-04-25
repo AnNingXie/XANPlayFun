@@ -59,7 +59,6 @@ typedef NS_ENUM(NSInteger, loginType) {
     
     XANLoginBottomView *bottomView=[[XANLoginBottomView alloc]init];
     bottomView.delegate=self;
-    bottomView.backgroundColor=[UIColor blueColor];
     [self.view addSubview:bottomView];
     [bottomView autoPinEdgeToSuperviewEdge:ALEdgeBottom withInset:BottomHeight];
     [bottomView autoPinEdgeToSuperviewEdge:ALEdgeLeft withInset:0];

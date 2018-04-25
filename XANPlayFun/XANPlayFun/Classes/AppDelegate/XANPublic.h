@@ -49,7 +49,7 @@
 #import "UIView+AutoLayout.h"
 #import "XANProgressHUD.h"
 #import "XANTableViewCell.h"
-
+#import "XANConst.h"
 
 #endif//OC文件判断结束
 

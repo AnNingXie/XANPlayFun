@@ -16,7 +16,8 @@
 @implementation XANAllViewController
 -(instancetype)init{
     if (self=[super init]) {
-        UITableView *tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, 0, KScreenWidth, KScreenHeight-(TabbarHeight)) style:UITableViewStyleGrouped];
+        UITableView *tableView=[[UITableView alloc]initWithFrame:CGRectMake(0, NaviHeight, KScreenWidth, KScreenHeight-(TabbarHeight)-(NaviHeight)) style:UITableViewStyleGrouped];
+        tableView.contentInset=UIEdgeInsetsMake(kTitleViewHeight, 0, 0, 0);
         tableView.separatorStyle = UITableViewCellSeparatorStyleNone;
         tableView.rowHeight=50;
         tableView.delegate=self;
@@ -39,8 +40,7 @@
 
 -(UITableViewCell *)tableView:(UITableView *)tableView cellForRowAtIndexPath:(NSIndexPath *)indexPath{
     XANTableViewCell *cell=[XANTableViewCell cellWithTableView:tableView];
-    cell.textLabel.text=[NSString stringWithFormat:@"第%ld行",indexPath.row];
-    cell.backgroundColor=[UIColor redColor];
+    cell.textLabel.text=[NSString stringWithFormat:@"第%ld行",(long)indexPath.row];
     return cell;
 }
 
